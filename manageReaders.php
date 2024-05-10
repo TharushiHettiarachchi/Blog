@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon2.png">
+    <title>Codewiz - Admin Dashboard</title>
+</head>
+
+<body>
+    <div class="admin-background1">
+        <div class="sidebar">
+            <div class="logo"></div>
+            <div class="sidebar-email">john@gmail.com</div>
+            <div class="sidebar-title">Admin</div>
+            <button class="panel-btn">Add Post</button>
+            <button class="panel-btn">Manage Posts</button>
+            <button class="panel-btn">Manage Readers</button>
+            <button class="panel-btn">Messages</button>
+
+        </div>
+        <div class="mainbar">
+            <div class="admin-dashboard-title">Manage Readers</div>
+            <hr style="width: 100%;" />
+            <div class="readers-search-div">
+                <input type="text" placeholder="Search..." class="readers-searchbar" />
+                <button class="search-btn-managepost">Search</button>
+            </div>
+            <div class="reader-deatils-main">
+                <div class="reader-img1">
+                    <div class="prof-pic" style="background-image: url(images/prof2.jpg);"></div>
+                </div>
+                <div class="reader-name">Tharushi Hettiarachchi</div>
+                <div class="reader-email">tharushihettiarachchi12@gmail.com</div>
+                <div class="reader-status"><button class="search-btn-managepost">Block</button></div>
+            </div>
+            <div class="reader-deatils-main">
+                <div class="reader-img1">
+                    <div class="prof-pic" style="background-image: url(images/prof2.jpg);"></div>
+                </div>
+                <div class="reader-name">Tharushi Hettiarachchi</div>
+                <div class="reader-email">tharushihettiarachchi12@gmail.com</div>
+                <div class="reader-status"><button class="search-btn-managepost">Block</button></div>
+            </div>
+        </div>
+
+
+</body>
+
+</html>
