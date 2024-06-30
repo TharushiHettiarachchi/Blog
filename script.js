@@ -1,3 +1,3 @@
 function openPost(){
-    window.location = 'singlePostView.php';
+    window.location = 'singlePostView.html';
 }
